@@ -1,0 +1,27 @@
+.twitter-subscription {
+    padding: 23px 10px;
+
+    background-color: #597275;
+}
+
+.twitter-subscription .twitter-subscription__logo {
+    float: left;
+
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.twitter-subscription .twitter-subscription__text {
+    margin-left: 78px;
+    padding-left: 18px;
+
+    color: #abbdbf;
+
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.twitter-subscription .twitter-subscription__text .author-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+.mail-subscription-section {
+}
+
+.mail-subscription-section .mail-subscription-container
+{
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 24px 30px;
+
+    font-family: SourceSansProRegular, Serif;
+
+    background-color: #637f83;
+    color: #FFFFFF;
+}
+
+.mail-subscription-section .mail-subscription-container__header {
+    padding: 20px 0 38px 0;
+    border-bottom: 1px solid #597275;
+
+    text-align: center;
+}
+
+.mail-subscription-section .mail-subscription-container__header .title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.mail-subscription-section .mail-subscription-container__header .content {
+    margin-top: 5px;
+
+    font-size: 24px;
+
+    color: #e5e9ea;
+}
+
+.mail-subscription-section .mail-subscription-container__content {
+    padding: 40px 0 25px 0;
+}

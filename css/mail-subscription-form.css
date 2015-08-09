@@ -1,0 +1,53 @@
+.mail-subscription-form-container {
+    margin: 27px 0 0 0;
+}
+
+.mail-subscription-form {
+    display: table;
+
+    color: #FFFFFF;
+}
+
+.mail-subscription-form .mail-subscription-form__input-container {
+    display: table-cell;
+
+    width: 100%;
+
+    padding-right: 15px;
+
+    vertical-align: top;
+}
+
+.mail-subscription-form .mail-subscription-form__button-container {
+    display: table-cell;
+}
+
+.mail-subscription-form .form-control
+{
+    width: 100%;
+    padding: 0 10px;
+
+    color: #FFFFFF;
+    background-color: #597275;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.mail-subscription-form .button--submit {
+    color: white;
+    background-color: #597275;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    white-space: nowrap;
+}

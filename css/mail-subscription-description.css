@@ -1,0 +1,22 @@
+.mail-subscription-description {
+}
+
+.mail-subscription-description .mail-subscription-description__logo {
+    float: left;
+}
+
+.mail-subscription-description .mail-subscription-description__text {
+    float: left;
+
+    padding-left: 15px;
+}
+
+.mail-subscription-description .title {
+    font-size: 18px;
+}
+
+.mail-subscription-description .subtitle {
+    padding-top: 6px;
+
+    font-size: 11px;
+}
