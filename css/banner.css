@@ -1,0 +1,37 @@
+.banner {
+    height: 455px;
+
+    color: #FFFFFF;
+
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align: center;
+}
+
+.banner .banner__title {
+    padding: 90px 0 40px 0;
+
+    font-family: PTSansBold, Serif;
+    font-size: 38px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.banner .banner__subtitle {
+    color: #f6f6f6;
+
+    font-family: LatoRegular, Serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner .banner__button {
+    margin-top: 50px;
+}
