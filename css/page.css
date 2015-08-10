@@ -1,0 +1,41 @@
+@font-face
+{
+    font-family: SourceSansProBold;
+    font-weight: bold;
+
+    src: url(../fonts/SourceSansPro-Bold.otf) format("opentype");
+}
+
+@font-face
+{
+    font-family: SourceSansProLight;
+
+    src: url(../fonts/SourceSansPro-Light.otf) format("opentype");
+}
+
+@font-face
+{
+    font-family: SourceSansProRegular;
+
+    src: url(../fonts/SourceSansPro-Regular.otf) format("opentype");
+}
+
+@font-face
+{
+    font-family: PTSansBold;
+    font-weight: bold;
+
+    src: url(../fonts/PT_Sans-Web-Bold.ttf) format('truetype');
+}
+
+@font-face
+{
+    font-family: LatoRegular;
+
+    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
+.page
+{
+    min-width: 1140px;
+}

@@ -1,0 +1,25 @@
+.header {
+
+}
+
+.header .header__inner-container {
+    display: table;
+
+    min-width: 1140px;
+    margin: 0 auto;
+}
+
+.header .header__logo-container {
+    display: table-cell;
+    vertical-align: middle;
+
+    width: 50%;
+}
+
+.header .primary-logo {
+    color: #637f83;
+}
+
+.header .header__navigation-container {
+    float: right;
+}

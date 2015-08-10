@@ -1,0 +1,27 @@
+.mail-subscription-section {
+}
+
+.mail-subscription-section .mail-subscription-container
+{
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 24px 30px;
+
+    font-family: SourceSansProRegular, Serif;
+
+    background-color: #637f83;
+    color: #FFFFFF;
+}
+
+
+.mail-subscription-section .section-title .section-title__header {
+    color: #FFFFFF;
+}
+
+.mail-subscription-section .section-title .section-title__subtitle {
+    color: #e5e9ea;
+}
+
+.mail-subscription-section .mail-subscription-container__content {
+    padding: 40px 0 25px 0;
+}

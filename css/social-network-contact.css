@@ -1,0 +1,32 @@
+.social-network-contact {
+    padding: 15px 0 15px 15px;
+
+    background-color: #FFFFFF;
+
+    font-family: SourceSansProRegular, Serif;
+}
+
+.social-network-contact .social-network-contact__logo {
+    float: left;
+}
+
+.social-network-contact .social-network-contact__text {
+    margin-left: 62px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+.social-network-contact .social-network-contact__text .title {
+    margin-bottom: 5px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #637f83;
+}
+
+.social-network-contact .social-network-contact__text .subtitle {
+    font-size: 14px;
+
+    color: #b5c7c9;
+}
