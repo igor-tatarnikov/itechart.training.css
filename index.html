@@ -3,26 +3,27 @@
     <head>
         <title>iTechArt Training: CSS</title>
 
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
 
-        <link rel="stylesheet" type="text/css" href="css/grid.css">
-        <link rel="stylesheet" type="text/css" href="css/utils.css">
+        <link rel="stylesheet" type="text/css" href="css/grid.css"/>
+        <link rel="stylesheet" type="text/css" href="css/utils.css" />
 
-        <link rel="stylesheet" type="text/css" href="css/page.css">
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <link rel="stylesheet" type="text/css" href="css/primary-logo.css">
-        <link rel="stylesheet" type="text/css" href="css/primary-navigation.css">
-        <link rel="stylesheet" type="text/css" href="css/banner.css">
-        <link rel="stylesheet" type="text/css" href="css/section-title.css">
-        <link rel="stylesheet" type="text/css" href="css/featured-content.css">
-        <link rel="stylesheet" type="text/css" href="css/featured-content-item.css">
-
-        <link rel="stylesheet" type="text/css" href="css/mail-subscription-section.css">
-        <link rel="stylesheet" type="text/css" href="css/mail-subscription-description.css">
-        <link rel="stylesheet" type="text/css" href="css/mail-subscription-form.css">
-        <link rel="stylesheet" type="text/css" href="css/twitter-subscription.css">
-        <link rel="stylesheet" type="text/css" href="css/social-network-contact.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/page.css"/>
+        <link rel="stylesheet" type="text/css" href="css/header.css"/>
+        <link rel="stylesheet" type="text/css" href="css/primary-logo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/primary-navigation.css"/>
+        <link rel="stylesheet" type="text/css" href="css/banner.css"/>
+        <link rel="stylesheet" type="text/css" href="css/section-title.css"/>
+        <link rel="stylesheet" type="text/css" href="css/featured-content.css"/>
+        <link rel="stylesheet" type="text/css" href="css/featured-content-item.css"/>
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+        <link rel="stylesheet" type="text/css" href="css/article.css" />
+        <link rel="stylesheet" type="text/css" href="css/mail-subscription-section.css"/>
+        <link rel="stylesheet" type="text/css" href="css/mail-subscription-description.css"/>
+        <link rel="stylesheet" type="text/css" href="css/mail-subscription-form.css"/>
+        <link rel="stylesheet" type="text/css" href="css/twitter-subscription.css"/>
+        <link rel="stylesheet" type="text/css" href="css/social-network-contact.css"/>
+        <link rel="stylesheet" type="text/css" href="css/footer.css"/>
     </head>
     <body>
         <div class="page">
@@ -156,22 +157,109 @@
                     </div>
                 </div>
             </section>
-            <section class="section-title">
-                <div class="section-title__header">
-                    <span>Cras ornaretristique elit</span>
+            <section class="portfolio">
+                <div class="portfolio__header section-title">
+                    <div class="section-title__header">
+                        <span>Cras ornaretristique elit</span>
+                    </div>
+                    <div class="section-title__subtitle">
+                        <span>Donec odio uisque voluplat mattis eros ullam malesuada erat ut turpis.</span>
+                    </div>
                 </div>
-                <div class="section-title__subtitle">
-                    <span>Donec odio uisque voluplat mattis eros ullam malesuada erat ut turpis.</span>
+                <div class="portfolio__navigation">
+                    <a class="button-previous" href="#protfolioPrev"></a>
+                    <a class="button-next" href="#protfolioNext"></a>
+                </div>
+                <div class="portfolio__folios">
+                    <div class="grid grid-pad">
+                        <div class="col-1-4">
+                            <img src="images/folio-1.png" class="folio-item"/>
+                        </div>
+                        <div class="col-1-4">
+                            <img src="images/folio-2.png" class="folio-item"/>
+                        </div>
+                        <div class="col-1-4">
+                            <img src="images/folio-3.png" class="folio-item"/>
+                        </div>
+                        <div class="col-1-4">
+                            <img src="images/folio-4.png" class="folio-item"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__link">
+                    <a href="#portfolio" class="button">
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+            </section>
+            <section class="articles-container">
+                <div>
+                    <div class="grid">
+                        <div class="col-1-2 article clear-fix">
+                            <div class="article__author-photo">
+                                <img src="images/person-photo.png" />
+                            </div>
+                            <div class="article__brief-info clear-fix">
+                                <div class="title">
+                                    <span>Donec quis dui dolor</span>
+                                </div>
+                                <div class="text">
+                                    <span>Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat voluplat. Nam dui mi, tinci-dunt quis, accumsan porttitor, facilisis luctus, metus + more</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-2 article clear-fix">
+                            <div class="article__author-photo">
+                                <img src="images/person-photo.png" />
+                            </div>
+                            <div class="article__brief-info clear-fix">
+                                <div class="title">
+                                    <span>Donec quis dui dolor</span>
+                                </div>
+                                <div class="text">
+                                    <span>Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat voluplat. Nam dui mi, tinci-dunt quis, accumsan porttitor, facilisis luctus, metus + more</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="col-1-2 article clear-fix">
+                            <div class="article__author-photo">
+                                <img src="images/person-photo.png" />
+                            </div>
+                            <div class="article__brief-info clear-fix">
+                                <div class="title">
+                                    <span>Donec quis dui dolor</span>
+                                </div>
+                                <div class="text">
+                                    <span>Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat voluplat. Nam dui mi, tinci-dunt quis, accumsan porttitor, facilisis luctus, metus + more</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-2 article clear-fix">
+                            <div class="article__author-photo">
+                                <img src="images/person-photo.png" />
+                            </div>
+                            <div class="article__brief-info clear-fix">
+                                <div class="title">
+                                    <span>Donec quis dui dolor</span>
+                                </div>
+                                <div class="text">
+                                    <span>Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat voluplat. Nam dui mi, tinci-dunt quis, accumsan porttitor, facilisis luctus, metus + more</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="mail-subscription-section">
                 <div class="mail-subscription-container">
-                    <div class="mail-subscription-container__header">
-                        <div class="title">
-                            <span>Cras ornare tristique elit</span>
+                    <div class="section-title">
+                        <div class="mail-subscription-container__header section-title__header">
+                            <span>Cras ornaretristique elit</span>
                         </div>
-                        <div class="content">
-                            <span>Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis</span>
+                        <div class="section-title__subtitle">
+                            <span>Donec odio uisque voluplat mattis eros ullam malesuada erat ut turpis.</span>
                         </div>
                     </div>
                     <div class="mail-subscription-container__content">
