@@ -1,0 +1,10 @@
+.featured-content {
+    background-color: #f6f6f6;
+}
+
+.featured-content .featured-content__element {
+    border-right: 2px solid #d5d5d5;
+}
+.featured-content .featured-content__element:last-child{
+    border-right: none;
+}
